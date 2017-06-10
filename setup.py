@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='sonar-distance',
+    name='sonar_distance',
     version='0.1',
     packages=[''],
     url='https://github.com/wasperen/sonar-distance',
