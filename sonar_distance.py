@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import time
 import threading
+import pigpio
 
 
 class SonarDistance:
@@ -93,7 +94,6 @@ class SonarDistance:
             self.thread = None
 
 if __name__ == "__main__":
-    import pigpio
 
     TRIGGER = 25
     ECHO_L = 5
